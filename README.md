@@ -11,5 +11,5 @@ Devem possuir um Dockerfile e um docker-compose.yml que permita a execução do 
 O corpo das mensagens HTTP deve manipular o formato JSON; <br>
 O README.md deve conter instruções claras para a execução do projeto, além da descrição das rotas e exemplos de requisições e respostas; <br>
 Deverá conter ainda uma denominada: /sobre, que deverá responder com conteúdo EXATAMENTE no seguinte formato: <br>
-Estudante: <br>
-Projeto:
+"estudante": "seu nome", <br>
+"projeto": "nome do projeto"
