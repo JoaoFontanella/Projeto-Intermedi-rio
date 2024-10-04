@@ -10,4 +10,6 @@ Todas as rotas devem realizar algum tipo de tratamento nos dados recebidos do cl
 Devem possuir um Dockerfile e um docker-compose.yml que permita a execução do projeto em um container Docker autosuficiente. <br>
 O corpo das mensagens HTTP deve manipular o formato JSON; <br>
 O README.md deve conter instruções claras para a execução do projeto, além da descrição das rotas e exemplos de requisições e respostas; <br>
-Deverá conter ainda uma denominada: /sobre, que deverá responder com conteúdo EXATAMENTE no seguinte formato:
+Deverá conter ainda uma denominada: /sobre, que deverá responder com conteúdo EXATAMENTE no seguinte formato: <br>
+Estudante: <br>
+Projeto:
