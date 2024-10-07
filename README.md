@@ -1,15 +1,15 @@
 # Projeto-Intermediario
-Repositório para avaliação 02 - projeto intermediário da disciplina de back-end.
-#
-Deve ser um projeto de web service que recebe e responde requisições HTTP no formato JSON; <br>
-Deve ser executado, por padrão, na porta 8080; <br>
-Deve conter pelo menos um controller e um service no código-fonte; <br>
-Deve conter uma rota GET para consultas (apenas leitura) e uma rota POST que recebe dados pelo corpo da mensagem; <br>
-Deve utilizar dados externos (API ou Arquivos) que serão processados pelo serviço para a geração das respostas HTTP; <br>
-Todas as rotas devem realizar algum tipo de tratamento nos dados recebidos do cliente e do serviço externo; <br>
-Devem possuir um Dockerfile e um docker-compose.yml que permita a execução do projeto em um container Docker autosuficiente. <br>
-O corpo das mensagens HTTP deve manipular o formato JSON; <br>
-O README.md deve conter instruções claras para a execução do projeto, além da descrição das rotas e exemplos de requisições e respostas; <br>
-Deverá conter ainda uma denominada: /sobre, que deverá responder com conteúdo EXATAMENTE no seguinte formato: <br>
-"estudante": "seu nome", <br>
-"projeto": "nome do projeto"
+Para executar o projeto precisa baixar o codigo e abrir ele no Intellij e então executar o arquivo [ProjetoIntermediarioApplication.java](src/main/java/com/fontanella/Projeto_Intermediario/ProjetoIntermediarioApplication.java). <br>
+Ou então criar um Docker do projeto, o mesmo ja possui os arquivos necessarios para a criação do Docker.
+
+Para testar o projeto é preciso pequisar em algum navegador a seguinte URL "localhost:8080/api/{CEP}" e onde esta o CEP entre chaves digitar um CEP que deseja fazer a busca.
+
+Exemplos de uso:
+-
+http://localhost:8080/api/88803150 <br>
+http://localhost:8080/api/88801974 <br>
+http://localhost:8080/api/88802971
+
+Referente ao "/sobre" foi realizado como solicitado contendo o nome do integrante e o nome do projeto:
+
+http://localhost:8080/api/sobre
